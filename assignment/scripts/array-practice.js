@@ -1,5 +1,5 @@
 console.log('****** Array Practice *******');
-//3c and check 4h 
+//Actuallly... i am going to resign to the fact that i dont know how to do 3c and 4h- please review/point in direction. 
 // 1. Creating arrays
 console.log('--- 1. Practice creating arrays ---');
 
@@ -35,12 +35,12 @@ console.log('First animal is', animalArray[0])
 console.log(' The second animal is ', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
-console.log(' The third animal is ' , animalArray[3]);
+console.log(' The third animal is ' , animalArray[2]);
 //****I dont like the spacing but it appears to be more legible this way. Please dont ding me for this haha :')
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-//console.log(animalArray.length);
+console.log('The last animal is ' + animalArray[animalArray.length -1]);
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
