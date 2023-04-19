@@ -35,7 +35,7 @@ console.log('First animal is', animalArray[0])
 console.log(' The second animal is ', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
-console.log(' The third animal is ' , animalArray[2]);
+console.log(' The third animal is ' , animalArray[3]);
 //****I dont like the spacing but it appears to be more legible this way. Please dont ding me for this haha :')
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
@@ -98,6 +98,7 @@ console.log('Actually i want them alphabetically organized' + alphabetFoods);
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
+console.log('Actually i want them alphabetically organized... but backwards' + alphabetFoods.reverse());
 console.log('Actually... thats a run on sentence, how about...' + angelicasFavoriteFoods.join('and'));
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
@@ -105,4 +106,5 @@ console.log('Actually... thats a run on sentence, how about...' + angelicasFavor
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
 //I am wondering whether i am going to get dinged for not having the ' ' on each word like in the example
-console.log(angelicasFavoriteFoods.join(',') + animalArray.join(','));
+//console.log(angelicasFavoriteFoods.join(',') + animalArray.join(','));
+console.log(angelicasFavoriteFoods.concat(animalArray));
