@@ -1,5 +1,4 @@
-console.log('****** Array Practice *******');
-//Actuallly... i am going to resign to the fact that i dont know how to do 3c and 4h- please review/point in direction. 
+console.log('****** Array Practice *******'); 
 // 1. Creating arrays
 console.log('--- 1. Practice creating arrays ---');
 
@@ -23,7 +22,7 @@ console.log('--- 2. Length of an array ---');
 console.log('Number of animals:', animalArray.length);
 
 // 2.a. TODO: Log to the console the number of foods in your array
-console.log('Number of Favorite Foods: ' + angelicasFavoriteFoods.length);
+console.log('Number of Favorite Foods: ', angelicasFavoriteFoods.length);
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
@@ -36,7 +35,6 @@ console.log(' The second animal is ', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
 console.log(' The third animal is ' , animalArray[3]);
-//****I dont like the spacing but it appears to be more legible this way. Please dont ding me for this haha :')
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
@@ -73,6 +71,7 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 angelicasFavoriteFoods.unshift(' ice cream ');
 console.log(' Added another food item to the beginning- ' + angelicasFavoriteFoods);
+console.log(' Added another food item to the beginning- ', angelicasFavoriteFoods);
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
@@ -105,6 +104,5 @@ console.log('Actually... thats a run on sentence, how about...' + angelicasFavor
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
-//I am wondering whether i am going to get dinged for not having the ' ' on each word like in the example
 //console.log(angelicasFavoriteFoods.join(',') + animalArray.join(','));
 console.log(angelicasFavoriteFoods.concat(animalArray));
